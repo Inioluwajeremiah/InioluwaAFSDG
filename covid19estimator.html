@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="" charset="utf-8" content="width=device-width, initial-scale=1">
+  <link href= "covidStyle.css" rel="stylesheet" type="text/css">
+  <script src="displayResult.js" charset="utf-8"></script>
+  <title>Covid-19 Estimator by Inioluwa</title>
+</head>
+
+<body>
+<div class="region">
+    <h2>Covid-19 Impact Estimator</h2>
+
+    <form class="" action= "covidResult.html/json" method="post" target="blank" >
+    <table>
+      <tr class="tname">
+        <td class="noborder">Name: </td>
+        <td>
+          <input type="text" name="name" value="">
+        </td>
+      </tr>
+      <tr class="">
+        <td class="noborder">Average Age: </td>
+        <td>
+          <input id="age" type="text" name="averageAge" value="">
+        </td>
+      </tr>
+
+      <tr>
+        <td class="noborder">Reported cases </td>
+        <td>
+          <input id="reportedCases" type="number" name="reportedCases" value="">
+        </td>
+      </tr>
+
+      <div class="income">
+      <tr>
+        <td class="noborder">Average daily income in USD: </td>
+        <td>
+          <input class="hideborder" id="income" type="number" name="dailyIncome" value="">
+        </td>
+        </tr>
+        <tr>
+          <td class="noborder"> percentage </td>
+          <td>
+            <input class="hideborder" id="perc" type="number" name="d" value="">
+          </td>
+        </tr>
+        <tr>
+          <td class="noborder"> Duration </td>
+          <td>
+            <input class="hideborder" id="incomeduration" type="number" name="dai" value="">
+          </td>
+        </tr>
+      </div>
+
+      <tr>
+        <td class="noborder">Average daily population: </td>
+        <td><input type="text" name="population" value=""></td>
+      </tr>
+
+      <tr>
+        <td class="noborder">Period type: </td>
+        <td>
+          <select id="period" class="period" name="period">
+            <option  id="month"value="">Months</option>
+            <option id="week" value="">Weeks</option>
+            <option  id="day" value="">Days</option>
+          </select>
+        </td>
+        <td class="noborder">Duration: </td>
+        <td> <input id="days" type="number" name="duration" value=""> </td>
+      </tr>
+
+      <tr>
+        <td class="noborder">Total hopital beds</td>
+        <td><input id="beds" type="number" name="" value="input total beds"></td>
+      </tr>
+</table>
+  <div class="submit_button">
+    <input type="submit" name="submit" value="data-go-estimate"  onclick="results()">
+  </div>
+
+</form>
+  </div>
+</body>
+</html>
