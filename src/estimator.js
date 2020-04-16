@@ -1,13 +1,11 @@
 const covid19ImpactEstimator = (data) => data;
-
-function results () {
-
-  var currentlyInfected = (document.getElementById("reportedCases").value * 10).toString();
-  var d = (document.getElementById('days').value).toString();
-  var bed =  (document.getElementById("beds").value).toString();
-  var icomeDuration = (document.getElementById("incomeduration").value).toString();
-  var percen = (document.getElementById("perc").value).toString();
-  var averageDailyIncome = (document.getElementById("income").value).toString();
+function results() {
+  const currentlyInfected = (document.getElementById('reportedCases').value * 10).toString();
+  const d = (document.getElementById('days').value).toString();
+  const bed = (document.getElementById('beds').value).toString();
+  const icomeDuration = (document.getElementById("incomeduration").value).toString();
+  const percen = (document.getElementById("perc").value).toString();
+  const averageDailyIncome = (document.getElementById("income").value).toString();
 
 
   document.write("Currently Infected: " + currentlyInfected + " <br> ");
