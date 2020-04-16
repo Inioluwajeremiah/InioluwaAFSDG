@@ -1,6 +1,9 @@
 const covid19ImpactEstimator = (data) => data;
 
-export default covid19ImpactEstimator;
+function results () {
+
+  var currentlyInfected = (document.getElementById("reportedCases").value * 10).toString();
+  var d = (document.getElementById('days').value).toString();
   var bed =  (document.getElementById("beds").value).toString();
   var icomeDuration = (document.getElementById("incomeduration").value).toString();
   var percen = (document.getElementById("perc").value).toString();
@@ -39,3 +42,4 @@ else {
    document.write("dollarsInFlight: " + dollarsInFlight);
 
 }
+export default covid19ImpactEstimator;
