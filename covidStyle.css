@@ -1,0 +1,94 @@
+body{
+  width: 98%;
+  height:98%;
+  margin: 0 auto;
+  font-family: cursive, Ariel, helvetica,sans-serif;
+  background-color: #FFCCCC;
+}
+.region{
+  width: 100%;
+  height: 100%;
+  background-image: url("image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0 auto;
+}
+form{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+table{
+  width: 70%;
+  height: 70%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 30px;
+
+}
+.noborder{
+  border: none;
+}
+.income.input.hideborder{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+input{
+  background-color: #eee;
+  opacity: 0.2;
+  border: hidden;
+  margin-bottom: 6px;
+  text-align: center;
+}
+td{
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 3px;
+  text-align: center;
+}
+tr{
+  margin-bottom: 5px;
+}
+.income{
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submit_button{
+  width: 150px;
+  height: 30px;
+  margin: 0 auto;
+  font-family: cursive;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  text-align: center;
+  opacity: 1;
+
+}
+h2 {
+  color: white;
+  text-align: center;
+  width: 40%;
+  height: 20%;
+  background-image: url("image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+  margin: 0 auto;
+  padding: 3px;
+  opacity: 0.9;
+}
+h3 {
+  color: blue;
+  float: left;
+  width: 90%;
+  text-align: center;
+}
